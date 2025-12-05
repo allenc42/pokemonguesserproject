@@ -1,0 +1,41 @@
+
+
+.center {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.3rem solid green;
+    background-color: greenyellow;
+    margin: 1rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.guessButton {
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    width: 10rem;
+    border: 0.2rem, solid green;
+    border-radius: 5rem;
+    background-color: greenyellow;
+    color:green;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.guessButton:hover {
+    background-color: rgb(32, 219, 110);
+    color: rgb(10, 53, 28);
+}

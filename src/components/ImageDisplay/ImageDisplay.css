@@ -1,0 +1,10 @@
+.image {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 15rem;
+    background-color: greenyellow;
+    border: 0.2rem, solid green;
+    border-radius: 4rem;
+    margin-bottom: 2rem;
+}

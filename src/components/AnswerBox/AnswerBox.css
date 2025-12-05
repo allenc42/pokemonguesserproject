@@ -1,0 +1,29 @@
+
+.guessBox {
+    display: block;
+    margin: auto;
+    width: 15rem;
+    height: 2rem;
+    border: 0.2rem, solid green;
+    text-align: center;
+    background-color: greenyellow;
+    color: green;
+}
+
+.guessButton {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    width: 10rem;
+    border: 0.2rem, solid green;
+    border-radius: 5rem;
+    background-color: greenyellow;
+    color:green;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.guessButton:hover {
+    background-color: rgb(32, 219, 110);
+    color: rgb(10, 53, 28);
+}
