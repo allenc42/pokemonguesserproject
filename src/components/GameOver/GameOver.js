@@ -8,7 +8,7 @@ const GameOver = () => {
     const { pokemonGuess, setLivesCount, setPokemonGuess, pokemonInfo, setPokemonInfo} = useContext(PokemonContext);
 
     const navigate = useNavigate();
-    const [currentBest, setCurrentBest] = useState(localStorage.getItem("best") || 0); 
+    const [currentBest, setCurrentBest] = useState(Number(localStorage.getItem("best"))); 
 
 
     if(currentBest < pokemonGuess) {
